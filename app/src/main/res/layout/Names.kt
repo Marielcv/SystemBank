@@ -1,6 +1,8 @@
 package layout
 
-class Names(val names:String,var edad:Int, val Names:Array<NamesProgram>,val amigo:Array<Names>?=null) {
+import org.w3c.dom.NameList
+
+class Names(val names:String,var edad:Int, val Name:Array<NamesProgram>,val amigo:Array<Names>?=null) {
     enum class NamesProgram{
         MARIA,
         ALEXANDRA,
@@ -10,8 +12,8 @@ class Names(val names:String,var edad:Int, val Names:Array<NamesProgram>,val ami
     }
 
 
-    fun codigo(){
-        for(Names:NamesProgram in Names){
+    fun Name(){
+        for(Names:NamesProgram in Name){
             println("Se Nombres de programacion en $Names")
         }
     }

@@ -28,7 +28,7 @@ class ListViewApp : AppCompatActivity() {
 
         lvName?.onItemClickListener = object : AdapterView.OnItemClickListener{
             override fun onItemClick( parent: AdapterView<*>?, view: View?, position: Int,id: Long) {
-                tvSelection?.text = "La posición del lenguaje ${lvName?.getItemAtPosition(position)} es ${posiciones[position]}"
+                tvSelection?.text = "La posición Name ${lvName?.getItemAtPosition(position)} es ${posiciones[position]}"
             }
 
 
