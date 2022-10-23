@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Ingrese Departamento"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Nombre"
+        android:text="Ingrese Nombre"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <ListView
+        android:id="@+id/Lv_Names"
+        android:layout_width="272dp"
+        android:layout_height="90dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <TextView
+        android:id="@+id/IE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingrese su Edad"
+        tools:layout_editor_absoluteX="449dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <RadioButton
+        android:id="@+id/rbS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="San Salvador"
+        tools:layout_editor_absoluteX="396dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <RadioButton
+        android:id="@+id/rbSA"
+        android:layout_width="115dp"
+        android:layout_height="47dp"
+        android:text="Santa Ana"
+        tools:layout_editor_absoluteX="396dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="491dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <RadioButton
+        android:id="@+id/rbSM"
+        android:layout_width="116dp"
+        android:layout_height="51dp"
+        android:text="San Miguel"
+        tools:layout_editor_absoluteX="398dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <RadioButton
+        android:id="@+id/rbCH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chalatenango"
+        tools:layout_editor_absoluteX="558dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <RadioGroup
+        android:layout_width="340dp"
+        android:layout_height="187dp"
+        tools:layout_editor_absoluteX="371dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
