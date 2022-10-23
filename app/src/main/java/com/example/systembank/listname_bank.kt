@@ -20,8 +20,8 @@ class ListViewApp : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        lvName = findViewById(R.id.)
-        tvSelection = findViewById(R.id.)
+        lvName = findViewById(R.id.textView3)
+        tvSelection = findViewById(R.id.lvName)
 
         var adaptador:ArrayAdapter<String> = ArrayAdapter<String>(this,R.layout.activity_main,name)
         lvName?.adapter=adaptador
