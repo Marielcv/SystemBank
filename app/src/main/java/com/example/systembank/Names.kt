@@ -1,6 +1,6 @@
 package com.example.systembank
 
-class Names(val nombre:String,var edad:Int, val lenguajes:Array<progra>,val amigo:Array<Names>?=null) {
+class Names(val name:String,var edad:Int, val lenguajes:Array<progra>,val amigo:Array<Names>?=null) {
     enum class progra{
         MARIA,
         ALEXANDRA,
